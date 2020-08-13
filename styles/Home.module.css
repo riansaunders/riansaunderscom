@@ -1,0 +1,58 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  font-size: 14px;
+
+}
+
+.heroImg {
+  width: 236px;
+  height: 236px;
+
+}
+
+.sectionTitle {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.sectionSubTitle {
+  font-weight: 340;
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.5)
+}
+.sectionHeader {
+  background-color: #fafafa;
+  padding: 15px 15px 10px;
+  border-bottom: 2px solid #c1c1c1;
+  margin-bottom: 10px;
+
+}
+
+.sectionContent {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.sectionContent:hover {
+  background-color: #f7f7f7;
+  transition: 0.3s;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  /* color: white; */
+  cursor: pointer;
+}
+
+.sectionContentContainer {
+  /* max-height: 100vh; */
+  overflow-y: auto;
+  
+}
+
+.techImage {
+  width: 32px;
+  height: 32px;
+}
