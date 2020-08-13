@@ -84,13 +84,14 @@ export default function Home({
             </div>
             <h4 className="mt-4">About Me</h4>
             <p className="mt-1">
-              My name is Rian Saunders. I'm a code weaver who loves engineering solutions. I've been at it
-              since 2007 and been involved with many industries such as gaming(mmorpg),
-              finance, and ecommerce to name a few.
+              My name is Rian Saunders. I'm a code weaver who loves engineering
+              solutions. I've been at it since 2007 and been involved with many
+              industries such as gaming(mmorpg), finance, and ecommerce to name
+              a few.
             </p>
-              <a className="btn mt-2" href="/Resume Rian Saunders.pdf">
-                View My Resume
-              </a>
+            <a className="btn mt-2" href="/Resume Rian Saunders.pdf">
+              View My Resume
+            </a>
           </div>
           <div className="col">
             <div className={styles.sectionHeader}>
@@ -111,6 +112,25 @@ export default function Home({
                     first venture, Botscript and all the tribulations that went
                     with it.
                   </p>
+                </div>
+              </a>
+            </Link>
+            <hr />
+            <Link href="https://holdmynote.com">
+              <a>
+                <div className={styles.sectionContent}>
+                  <div className="mb-1">
+                    <span className={styles.sectionTitle}>HoldMyNote</span>
+                    <span className={styles.sectionSubTitle}>
+                      Full Stack Application
+                    </span>
+                  </div>
+                  <p>
+                    A full stack application that demonstrates GRAPHQL and CRUD
+                    usage. Uses MongoDB, React and Node. Available on GitHub.
+                  </p>
+                  <div className={styles.techContainer}>
+                  </div>
                 </div>
               </a>
             </Link>
